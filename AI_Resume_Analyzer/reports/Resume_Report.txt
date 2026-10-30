@@ -1,0 +1,35 @@
+==================================================
+          AI RESUME ANALYZER AUDIT REPORT         
+==================================================
+Candidate Name: Bhushan Sonawane
+Email         : bhushans202223@gmail.com
+Phone         : 91 7821074445
+Overall Score : 77 / 100
+Strength      : Good / Competitive ⭐⭐
+--------------------------------------------------
+SCORE BREAKDOWN:
+  - Skills                : 25 / 30
+  - Experience            : 15 / 20
+  - Education             : 15 / 15
+  - Projects              : 10 / 10
+  - Certifications        : 2 / 10
+  - Resume Formatting     : 6 / 10
+  - Contact Information   : 4 / 5
+--------------------------------------------------
+AI IMPROVEMENT SUGGESTIONS:
+  ✔ Add your GitHub profile link to showcase code repositories and open-source contributions.
+  ✔ Include a personal portfolio URL or live project demo links.
+  ✔ Mention measurable achievements (e.g., 'Improved query response time by 40%', 'Handled 500+ records').
+  ✔ Include industry certifications (e.g. AWS Certified, Coursera/Udemy Certificates, Power BI PL-300).
+  ✔ Add a Power BI / Tableau dashboard project to demonstrate data visualization skills.
+  ✔ Highlight complex SQL query expertise (JOINs, Window functions, CTEs).
+--------------------------------------------------
+TOP JOB RECOMMENDATIONS:
+  - AI / Machine Learning Engineer: 55.0% Match
+  - Data Scientist      : 50.0% Match
+  - Data Analyst        : 21.1% Match
+  - Python Developer    : 10.0% Match
+  - BI Developer        : 5.9% Match
+  - Business Analyst    : 5.3% Match
+  - Full Stack Developer: 4.5% Match
+==================================================

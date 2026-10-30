@@ -1,0 +1,129 @@
+/* Premium Glassmorphism Theme & Custom CSS for AI Resume Analyzer */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body, .stApp {
+    font-family: 'Inter', sans-serif;
+    background-color: #0F172A;
+    color: #F8FAFC;
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    background-color: #1E293B !important;
+    border-right: 1px solid #334155;
+}
+
+/* Glassmorphism Metric Card */
+.metric-card {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    transition: transform 0.2s ease-in-out;
+}
+
+.metric-card:hover {
+    transform: translateY(-4px);
+    border-color: #6C5CE7;
+}
+
+.metric-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #94A3B8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+}
+
+.metric-value {
+    font-size: 32px;
+    font-weight: 700;
+    color: #F8FAFC;
+}
+
+.metric-subtitle {
+    font-size: 13px;
+    color: #38BDF8;
+    margin-top: 4px;
+}
+
+/* Score Badges */
+.badge-outstanding {
+    background-color: rgba(34, 197, 94, 0.2);
+    color: #4ADE80;
+    border: 1px solid #22C55E;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.badge-good {
+    background-color: rgba(234, 179, 8, 0.2);
+    color: #FACC15;
+    border: 1px solid #EAB308;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.badge-work {
+    background-color: rgba(239, 68, 68, 0.2);
+    color: #F87171;
+    border: 1px solid #EF4444;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+/* Section Header */
+.section-header {
+    font-size: 20px;
+    font-weight: 700;
+    color: #F8FAFC;
+    border-left: 4px solid #6C5CE7;
+    padding-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+/* Custom Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 44px;
+    border-radius: 8px;
+    padding: 0 18px;
+    background-color: #1E293B;
+    border: 1px solid #334155;
+    color: #94A3B8;
+    font-weight: 500;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #6C5CE7 !important;
+    color: #FFFFFF !important;
+    border-color: #6C5CE7 !important;
+}
+
+/* Skill Chip Pills */
+.skill-chip {
+    background-color: #334155;
+    color: #E2E8F0;
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 3px;
+    display: inline-block;
+}
